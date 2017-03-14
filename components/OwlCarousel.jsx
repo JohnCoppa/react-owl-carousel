@@ -3,9 +3,10 @@
 import React, {PropTypes} from 'react';
 import {findDOMNode} from 'react-dom';
 import $ from 'jquery';
-jQuery = $;
 import '../src/owl.carousel.css';
 import '../src/owl.carousel.js';
+
+const jQuery = $;
 
 const Owl_Carousel_Options = [
 	'items',
