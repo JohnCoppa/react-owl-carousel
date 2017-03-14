@@ -13,7 +13,7 @@
 /*jslint nomen: true, continue:true */
 
 import $ from 'jquery';
-jQuery = $;
+var jQuery = $;
 
 'use strict';
 if (typeof Object.create !== "function") {
