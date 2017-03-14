@@ -12,6 +12,8 @@
 /*global dragMove: false, dragEnd: false, $, jQuery, alert, window, document */
 /*jslint nomen: true, continue:true */
 
+import jQuery from 'jquery';
+
 'use strict';
 if (typeof Object.create !== "function") {
 	Object.create = function(obj) {
